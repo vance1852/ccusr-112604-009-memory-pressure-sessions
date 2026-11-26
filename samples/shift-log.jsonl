@@ -1,6 +1,7 @@
 {"at": 1, "kind": "progress", "session": "m1", "node": "k1", "track": "translation", "part": 4, "receiver": "audio-desk"}
 {"at": 2, "kind": "progress", "session": "m2", "node": "k2", "track": "captions", "part": 8, "receiver": "audio-desk"}
 {"at": 3, "kind": "pressure", "scope": "rack", "key": "r33", "mib": 15310, "valid_until": 12}
+{"at": 3, "kind": "pressure", "scope": "rack", "key": "r71", "mib": 3130, "valid_until": 14}
 {"at": 4, "kind": "pressure", "scope": "node", "key": "k3", "mib": 1000, "valid_until": 14}
 {"at": 5, "kind": "pressure", "scope": "node", "key": "k1", "mib": 8090, "valid_until": 14}
 {"at": 6, "kind": "pressure", "scope": "node", "key": "k2", "mib": 8060, "valid_until": 14}

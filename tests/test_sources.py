@@ -15,7 +15,7 @@ class SourceTests(unittest.TestCase):
         self.assertEqual(set(load_inventory(self.root)), {'nodes', 'racks', 'sessions'})
         names = ["shift-log.jsonl", "recovery-burst.jsonl"]
         primary, alternate = [list(load_timeline(self.root / name)) for name in names]
-        self.assertEqual(len(primary), 13)
+        self.assertEqual(len(primary), 14)
         self.assertEqual(len(alternate), 8)
         self.assertNotEqual(primary, alternate)
 
