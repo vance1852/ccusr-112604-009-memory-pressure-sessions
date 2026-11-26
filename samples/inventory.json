@@ -1,0 +1,70 @@
+{
+  "racks": [
+    {
+      "rack": "r33",
+      "cap": 15360
+    },
+    {
+      "rack": "r71",
+      "cap": 8192
+    }
+  ],
+  "nodes": [
+    {
+      "node": "k1",
+      "rack": "r33",
+      "cap": 8192,
+      "mode": "v2"
+    },
+    {
+      "node": "k2",
+      "rack": "r33",
+      "cap": 8192,
+      "mode": "v2"
+    },
+    {
+      "node": "k3",
+      "rack": "r71",
+      "cap": 4096,
+      "mode": "v1"
+    }
+  ],
+  "sessions": [
+    {
+      "session": "m1",
+      "node": "k1",
+      "tracks": [
+        "captions",
+        "translation"
+      ],
+      "optional_tracks": [
+        "translation"
+      ],
+      "checkpoint_mode": "v2",
+      "move_mib": 1800,
+      "cache_mib": 900
+    },
+    {
+      "session": "m2",
+      "node": "k2",
+      "tracks": [
+        "captions"
+      ],
+      "optional_tracks": [],
+      "checkpoint_mode": "v1",
+      "move_mib": 2400,
+      "cache_mib": 400
+    },
+    {
+      "session": "m3",
+      "node": "k2",
+      "tracks": [
+        "captions"
+      ],
+      "optional_tracks": [],
+      "checkpoint_mode": "v1",
+      "move_mib": 2300,
+      "cache_mib": 10
+    }
+  ]
+}

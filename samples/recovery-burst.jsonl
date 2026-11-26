@@ -1,0 +1,8 @@
+{"at": 2, "kind": "progress", "session": "m1", "node": "k1", "track": "translation", "part": 4, "receiver": "audio-desk"}
+{"at": 4, "kind": "pressure", "scope": "rack", "key": "r33", "mib": 15330, "valid_until": 10}
+{"at": 5, "kind": "pressure", "scope": "node", "key": "k1", "mib": 8032, "valid_until": 11}
+{"at": 6, "kind": "disposition", "session": "m1", "node": "k1", "action": "compress", "effect": "accepted", "mib": 900}
+{"at": 11, "kind": "pressure", "scope": "rack", "key": "r33", "mib": 14620, "valid_until": 20}
+{"at": 12, "kind": "disposition", "session": "m1", "node": "k1", "action": "compress", "effect": "confirmed", "mib": 900}
+{"at": 13, "kind": "pressure", "scope": "node", "key": "k1", "mib": 7250, "valid_until": 21}
+{"at": 14, "kind": "restore_request", "session": "m1", "node": "k1", "track": "translation"}
